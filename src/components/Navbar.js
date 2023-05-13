@@ -9,7 +9,7 @@ const Navbar = ({currentPage, handlePageChange}) => {
                     <ul className="navbar-nav">
                         <li className="nav-item" onClick={() => handlePageChange('AboutMe')}>
 
-                            <a className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'} href="#about-me">About Me</a>
+                            <a className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'} href="#about-me">About Me</a>
                         </li>
                         <li className="nav-item" onClick={() => handlePageChange('Portfolio')}>
                             <a className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'} href="#projects">Portfolio</a>
