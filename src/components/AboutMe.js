@@ -1,21 +1,30 @@
 import React from 'react';
+import '../styles/AboutMe.css';
 
 const AboutMe = () => {
+    
+    
+
     return(
-        <section>
-            <h1>About Me</h1>
-            <img src="https://via.placeholder.com/150" alt="placeholder" />
+        <section className="section">
+            <div className='image-container'>
+
+            <img className="image" src="https://via.placeholder.com/150" alt="placeholder" />
+            </div>
+            <div className='content-container'>
+            <h1 className='title'>About Me</h1>
             <hr></hr>
-            <p>
+            <p className='content'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut elit ut lacus
                 sollicitudin varius. Nulla facilisi. Sed ut elit ut lacus sollicitudin varius.
                 Nulla facilisi. Sed ut elit ut lacus sollicitudin varius. Nulla facilisi. Sed ut
             </p>
-            <p>
+            <p className='content'>
                 elit ut lacus sollicitudin varius. Nulla facilisi. Sed ut elit ut lacus sollicitudin
                 varius. Nulla facilisi. Sed ut elit ut lacus sollicitudin varius. Nulla facilisi.
                 Sed ut elit ut lacus sollicitudin varius. Nulla facilisi. Sed ut elit ut lacus
             </p>
+                </div>
          </section>
         );
 }

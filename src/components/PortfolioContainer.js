@@ -5,6 +5,7 @@ import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Resume from './Resume';
 import Footer from './Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 export default function PortfolioContainer() {
@@ -27,13 +28,16 @@ export default function PortfolioContainer() {
         };
         const handlePageChange = (page) => setCurrentPage(page);
         return (
-            <div>
+            <container>
+
+                
                 <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-                <main>
+            <div className="page-content-wrapper">
                     {renderPage()}
-                </main>
-                <Footer />
+                
             </div>
+                <Footer />
+            </container>
         );
 
 }

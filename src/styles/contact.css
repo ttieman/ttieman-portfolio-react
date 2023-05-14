@@ -1,0 +1,20 @@
+.contact-body{
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    margin-top : 20px;
+    width: 70%;
+}
+
+button{
+    margin-top: 1.3rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+}
