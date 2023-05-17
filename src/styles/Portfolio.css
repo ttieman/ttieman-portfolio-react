@@ -9,9 +9,52 @@ article{
 }
 
 .line{
-    width: 100%;
+    width: 80%;
     height: 1px;
     background-color: #000;
     margin-bottom: 2rem;
 }
 
+.title{
+    font-size: 2rem;
+    font-weight: 600;
+   
+}
+
+.content{
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 2rem !important;
+}
+
+.image{
+    max-width: 500px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    margin-top: 2rem;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

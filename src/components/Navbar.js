@@ -5,7 +5,7 @@ import '../styles/Nav.css'
 
 const Navigation = ({ currentPage, handlePageChange }) => {
   return (
-    <Navbar className="bar"bg="success" expand="lg" variant="dark">
+    <Navbar className="bar" expand="lg" variant="dark">
       <Navbar.Brand className="brand" href="#home">Tanner Tieman</Navbar.Brand>
       <Navbar.Toggle className="toggle" aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="collapse" id="basic-navbar-nav">

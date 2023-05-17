@@ -6,8 +6,11 @@ import "../styles/Portfolio.css";
 const Portfolio = () => {
     return (
         <section>
-            <h1>Portfolio</h1>
-            <hr className="line "></hr>
+            <div>
+            <h1 className="title">Portfolio</h1>
+                
+            </div>
+            <hr className="line"></hr>
            <article className="project-container">
             {projects.map((project, index) => (
                 <ProjectCard

@@ -28,16 +28,16 @@ export default function PortfolioContainer() {
         };
         const handlePageChange = (page) => setCurrentPage(page);
         return (
-            <container>
-
-                
+           <>
                 <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-            <div className="page-content-wrapper">
-                    {renderPage()}
+                <main className=''>    
+                    <div className="page-content-wrapper">
+                        {renderPage()}
                 
-            </div>
+                    </div>
+                </main>
                 <Footer />
-            </container>
+            </>
         );
 
 }
