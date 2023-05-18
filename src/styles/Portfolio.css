@@ -3,7 +3,7 @@ article{
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between; /* Adjusts the space between the items */
-    margin-top: 5rem;
+    margin-top: 1rem;
     flex-wrap: wrap;
     padding: 1rem;
 }
@@ -28,7 +28,7 @@ article{
     text-align: center;
     padding: 2rem;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .image-container{
@@ -56,5 +56,14 @@ article{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    position: relative;
+    width: 80%;
+    height: auto;
+    padding: 2rem !important;
+    background-color:grey;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 1px  black inset;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+
 }

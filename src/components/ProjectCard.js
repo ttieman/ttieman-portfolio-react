@@ -12,13 +12,14 @@ const ProjectCard = (props) => {
                 <h5 className="card-title project-title">{props.name}</h5>
                 <p className="card-text project-description">{props.description}</p>
                 <div className="icon-button-container">
-                    <a href={props.deployed} className="btn btn-primary card-button"><BiLinkExternal className="button-icon"/></a>
-                    <a href={props.github} className="btn btn-primary card-button"><GoMarkGithub className="button-icon"/></a>
+                    <a href={props.deployed} target="_blank" rel="noopener noreferrer" className="card-button"><BiLinkExternal className="button-icon"/></a>
+                    <a href={props.github} target="_blank" rel="noopener noreferrer" className="card-button"><GoMarkGithub className="button-icon"/></a>
                 </div>
             </div>
         </div>
-
     )
 }
+
+
 
 export default ProjectCard;

@@ -9,7 +9,11 @@ const Contact = () => {
         setFormState({...formState, [e.target.name]: e.target.value});
     };
     const  submitEmail = (e) => {
-            e.preventDefault();                
+        e.preventDefault();                
+        if (!formState.name || !formState.email || !formState.message) {
+            alert('Please fill out all fields.');
+            return;
+        }
                 emailjs.send('service_2u63svd', 'template_x3aq0ui', formState, 'ixp6lnQpJJH5_onyp')
             .then((result) => {
                 console.log('success', result.text);
@@ -19,6 +23,7 @@ const Contact = () => {
             }
             );
             setFormState({name: '', email: '', message: ''});
+
     };
     return(
         <section className='container'>
@@ -51,6 +56,7 @@ const Contact = () => {
             </div>
         </section>
         );
+                        
 }
 
 export default Contact;

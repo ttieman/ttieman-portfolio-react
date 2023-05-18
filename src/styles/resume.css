@@ -2,8 +2,20 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto !important;
     justify-content: center;
+    padding: 2rem !important;
+    background-color: rgb(61, 60, 60);
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 1px black inset;
     margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 80%;
+    height: auto;
+    text-shadow: 1px 1px 1px black;
+    align-self: center !important;
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
 }
 
 .line{
@@ -13,18 +25,18 @@ section {
     margin-bottom: 2rem;
 }
 
-.greeting{
+.greeting, .title, .download-heading{
     font-size: 1.3rem;
     font-weight: 200;
     margin-bottom: 20px;
     text-align: center;
+    color: rgb(241, 241, 241);
+    text-shadow: 1px 1px 1px white;
 }
 
 .title{
     font-size: 3rem;
     font-weight: 600;
-    margin-bottom: 20px;
-    text-align: center;
 }
 
 .skill-container{
@@ -35,6 +47,10 @@ section {
     flex-wrap: wrap;
     border-radius: 30px;
     padding: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: rgba(41, 40, 40, 0) !important;
+   
 }
 
 .card-container{
@@ -43,16 +59,26 @@ section {
     align-items: start;
     justify-content: center;
     margin: 20px;
-}
-
-.download-heading{
-    font-size: 1.3rem;
-    font-weight: 200;
-    margin-bottom: 20px;
-    text-align: center;
+    background-color: rgb(139, 138, 138) !important;
+    padding: 2rem !important;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 1px black inset;
+    
 }
 
 .download-heading a{
+    display: flex;
     text-decoration: none;
     color: #000;
+    justify-self: center;
+    align-self: center;
+    font-size: 1.5rem;
+    color: red !important;
+}
+
+a.download-link{
+    color: red !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }

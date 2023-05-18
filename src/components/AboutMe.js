@@ -9,14 +9,16 @@ const AboutMe = () => {
         <section className="section">
             <div className='image-container'>
 
-            <img className="image" src="https://via.placeholder.com/150" alt="placeholder" />
+            <img className="image" src="https://avatars.githubusercontent.com/u/118646882?v=4" alt="placeholder" />
             </div>
             <div className='content-container'>
+
+        <div className='about-container'>
             <h1 className='title'>About Me</h1>
-            <p className='content'>
             <hr className='line'></hr>
+            <p className='content'>
                 
-Greetings! I am <span className='name'>JTanner Tieman</span>, an ambitious full-stack web developer equipped with a comprehensive skill set ranging from the essential HTML, CSS, JavaScript to advanced Node.js, Express.js, MySQL, MongoDB, and React.js. I also possess familiarity with Python, expanding my versatility in the technology domain.
+            Greetings! I am <span className='name'>Tanner Tieman</span>, an ambitious full-stack web developer equipped with a comprehensive skill set ranging from the essential HTML, CSS, JavaScript to advanced Node.js, Express.js, MySQL, MongoDB, and React.js. I also possess familiarity with Python, expanding my versatility in the technology domain.
 
 
             </p>
@@ -28,6 +30,7 @@ Greetings! I am <span className='name'>JTanner Tieman</span>, an ambitious full-
             Apart from my technical prowess, my attributes as a diligent and fast learner enable me to adapt and thrive in dynamic work environments. I pride myself on being a team player who is always ready to extend support to colleagues, fostering a collaborative and productive work environment.  
             </p>
                 </div>
+        </div>
          </section>
         );
 }

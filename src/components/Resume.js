@@ -7,7 +7,7 @@ const Resume = () => {
             <section>
                 <h1 className="title">Resume</h1>
                 <p className="greeting">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut elit ut lacus
+                   Below is a list of my relevant Front-end and Back-end skills. I have also included a link to download my resume.
                 </p>
                 <hr className="line"></hr>
                 <div className="skill-container">
