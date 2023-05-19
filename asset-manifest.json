@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ttieman-portfolio-react/static/css/main.ca826345.css",
+    "main.js": "/ttieman-portfolio-react/static/js/main.f6d10e07.js",
+    "static/js/787.a2cb61a6.chunk.js": "/ttieman-portfolio-react/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Tanner_Tieman__-_Entry_Level_Full_Stack_Developer.pdf": "/ttieman-portfolio-react/static/media/Tanner_Tieman__-_Entry_Level_Full_Stack_Developer.6e4a62f86a86305aa424.pdf",
+    "index.html": "/ttieman-portfolio-react/index.html",
+    "main.ca826345.css.map": "/ttieman-portfolio-react/static/css/main.ca826345.css.map",
+    "main.f6d10e07.js.map": "/ttieman-portfolio-react/static/js/main.f6d10e07.js.map",
+    "787.a2cb61a6.chunk.js.map": "/ttieman-portfolio-react/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca826345.css",
+    "static/js/main.f6d10e07.js"
+  ]
+}
