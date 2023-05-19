@@ -6,24 +6,22 @@ import "../styles/footer.css";
 
 const Footer = () => {
     return (
-        
-        <Container fluid className="footer">
-            <Row className="justify-content-center">
-                <Col className="d-flex justify-content-center">
-                    <a href="https://github.com/ttieman" target="_blank" rel="noopener noreferrer">
-                        <FaGithub size={30} className="mx-2"/>
-                    </a>
-                    <a href="https://twitter.com/kindredreality" target="_blank" rel="noopener noreferrer">
-                        <FaTwitter size={30} className="mx-2"/>
-                    </a>
-                    <a href="https://www.linkedin.com/in/tanner-tieman-74b27625a/" target="_blank" rel="noopener noreferrer">
-                        <FaLinkedin size={30} className="mx-2"/> 
-                    </a>
-                </Col>
-            </Row>
-        </Container>
-           
+      <Container fluid className="footer py-3">
+        <Row className="justify-content-center">
+          <Col className="d-flex justify-content-center">
+            <a href="https://github.com/ttieman" target="_blank" rel="noopener noreferrer" className="mx-2">
+              <FaGithub size={30} />
+            </a>
+            <a href="https://twitter.com/kindredreality" target="_blank" rel="noopener noreferrer" className="mx-2">
+              <FaTwitter size={30} />
+            </a>
+            <a href="https://www.linkedin.com/in/tanner-tieman-74b27625a/" target="_blank" rel="noopener noreferrer" className="mx-2">
+              <FaLinkedin size={30} />
+            </a>
+          </Col>
+        </Row>
+      </Container>
     );
-};
-
-export default Footer;
+  };
+  
+  export default Footer;
